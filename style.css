@@ -1,0 +1,130 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	background: #005da5;
+	height: 150px;
+
+}
+.logo {
+	margin-top: -45px;
+	margin-left: 60px;
+}
+.caixa {
+	width: 940px;
+
+}
+
+nav {
+	position: absolute;
+	right: 10%;
+	margin: -35px ;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 15px 20px 0;
+
+
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 22px;
+	text-decoration: none;
+
+	/* margin-top, margin-right (en-US), margin-bottom, e margin-left (en-US).*/
+}
+nav a:hover {	
+
+
+}
+.contatos {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.map-cv, .map-os, .map-ca {
+	display: inline;
+	margin: 20px;
+}
+
+
+.map-cv p, .map-os li, .map-ca li{
+	position: relative;
+	margin: 10px;
+	
+}
+.menu-rodape {
+
+	width: 13%;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.menu-rodape a {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.menu-rodape li {
+	margin-bottom: 10px;
+}
+.menu-rodape p {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-size: 22px;
+
+}
+
+.rodape-info {
+	display: inline-block;
+	width: 26%;
+	margin-right: 3%;
+	text-align: justify;
+
+}
+
+.logo-rodape{
+	width: 45%;
+	text-align: center;
+}
+.rodape-info p {
+	color: white;
+
+}
+.redes-rodape {
+	text-align: center;
+	display: inline-block;
+	width: 17%;
+	text-decoration: none;
+}
+
+.redes-rodape p{
+	color: white;
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	background: #005da5;
+	padding: 40px;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
