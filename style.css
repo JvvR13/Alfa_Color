@@ -12,21 +12,17 @@ header {
 }
 .caixa {
 	width: 940px;
-
 }
 
 nav {
 	position: absolute;
 	right: 10%;
 	margin: -35px ;
-
 }
 
 nav li {
 	display: inline;
 	margin: 0 15px 20px 0;
-
-
 }
 
 nav a{
@@ -36,10 +32,6 @@ nav a{
 	text-decoration: none;
 
 	/* margin-top, margin-right (en-US), margin-bottom, e margin-left (en-US).*/
-}
-nav a:hover {	
-
-
 }
 .contatos {
 	position: relative;
@@ -83,11 +75,33 @@ form label, form legend {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+	margin-top: 20px;
 }
 
 .enviar:hover {
 	background: #0069BA;
 	transform: scale(1.05);
+}
+
+
+.promocao {
+	text-align: center;
+	display: inline-block;
+	margin: 50px auto 50px;
+	position: relative;
+}
+.promocao img{
+	position: relative;
+	margin-left: 50px;
+}
+
+.sobrenos {
+	margin: auto;
+	font-size: 20px;
+	width: 70%;
+	text-align: center;
+	
+
 }
 
 .topo {
@@ -99,6 +113,12 @@ form label, form legend {
 	margin-bottom: 50px;
 }
 
+.video iframe {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
 
 .map-cv, .map-os, .map-ca {
 	margin: 40px;
