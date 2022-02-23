@@ -46,17 +46,67 @@ nav a:hover {
 	width: 100%;
 	text-align: center;
 	display: inline-block;
+	margin: 40px;
 }
 
+.formulario {
+	margin: 0 auto;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 25px;
+	width: 30%;
+	text-align: center;
+
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:30%;
+	padding: 15px 0;
+	background: #005da5;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #0069BA;
+	transform: scale(1.05);
+}
+
+.topo {
+	text-align: center;
+	font-size: 50px;
+	color: rgba(54,54,54,1);
+	margin: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
 .map-cv, .map-os, .map-ca {
-	display: inline;
-	margin: 20px;
+	margin: 40px;
 }
 
 
 .map-cv p, .map-os li, .map-ca li{
 	position: relative;
-	margin: 10px;
 	
 }
 .menu-rodape {
