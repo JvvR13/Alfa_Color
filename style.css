@@ -30,8 +30,12 @@ nav a{
 	color: #FFFFFF;
 	font-size: 22px;
 	text-decoration: none;
+	margin: 0 auto;
 
 	/* margin-top, margin-right (en-US), margin-bottom, e margin-left (en-US).*/
+}
+nav a:hover {
+	color: white;
 }
 .contatos {
 	position: relative;
@@ -83,16 +87,26 @@ form label, form legend {
 	transform: scale(1.05);
 }
 
-
-.promocao {
+.promocoes {
+	display: inline-block;
+	width: 100%;
+	position: relative;
 	text-align: center;
+	margin-top: -50px;
+
+}
+
+
+.carousel-pg-index {
+	width: 50%;
+	margin: 0 auto;
+}
+.promocao {
+	
 	display: inline-block;
 	margin: 50px auto 50px;
 	position: relative;
-}
-.promocao img{
-	position: relative;
-	margin-left: 50px;
+	width: 40%;
 }
 
 .sobrenos {
